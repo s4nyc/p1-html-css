@@ -1,0 +1,15 @@
+body {
+    background-color: rgb(2, 59, 105);
+  }
+  
+  h1 {
+    color: rgb(119, 0, 255);
+    margin-left: 20px;
+  }
+  p {color: rgb(206, 8, 255);}
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
