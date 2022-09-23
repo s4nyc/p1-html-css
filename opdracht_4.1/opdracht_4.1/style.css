@@ -1,0 +1,22 @@
+h1 {
+    color: blue;
+    font-size: 24px;
+    text-decoration-thickness: auto;
+    font-style: italic;  
+}
+h2 { color: #0000ff;
+    font-size: 20px;
+    text-decoration-thickness: auto;
+}
+h3{
+    color: teal;
+    font-size: 16px;
+    text-decoration-thickness: auto;
+}
+p{
+    color: #4D4D4D;    
+}
+a{
+    color: #8A2BE2;
+}
+#first{font-style: italic;}
