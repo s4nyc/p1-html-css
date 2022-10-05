@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mystyle.css">
+    <title>form</title>
+</head>
+<body>
+    <form>
+        <label for="Voornaam">Voornaam:</label> <br>
+        <input type="text" id="fname" name="voornaam" pattern="[A-Za-z]" placeholder="peter" required> <br>
+        <label for="Achternaam">achternaam:</label> <br>
+        <input type="text" id="lname" name="achternaam" pattern="[A-Za-z]" placeholder="van huizen" required> <br>
+        <LABEL>uw geslacht:</LABEL> <br>
+       <select name="geslacht">
+        <option value="man" required>man</option>
+        <option value="bitch">bitch</option>
+       </select> <br>
+       <label for="straatnaam en huisnummer"> straatnaam en huisnummer:</label><br>
+       <input type="text" name="straatnaam " placeholder="dr lilnaslaan "> <input type="text" name="huisnummer" maxlength="5" size="5"placeholder="69"> <br>
+       <label for="postcode"> postcode:</label> <br>
+       <input type="text" name="postcode" placeholder="420XY"> <br>
+       <LAbel>stad:</LAbel> <br>
+       <input type="text" name="postcode" placeholder="rotterdam" required> <br>
+       <label for="land">land:</label> <br>
+       <input type="text" name="land" placeholder="Kenia" required> <br>
+       <label for="BSN-nummer">BSN-nummer:</label>
+       <input type="text" name="BSN-nummer" maxlength="9" size="9" placeholder="123456789" required><br>
+       <LABEL>kies uw vakantielocatie:</LABEL> <br>
+       <select name="vakantielocatie" required>
+        <option value="Duitsland">Duitsland</option>
+        <option value="Nieuw-Zeeland">Nieuw-Zeeland</option>
+        <option value="Polen">Polen</option>
+        <option value="Ijsland">Ijsland</option>
+        <option value="Bali">Bali</option>
+        <option value="Dubai">Dubai</option>
+        <option value="spanje">spanje</option>
+        <option value="Aruba">Aruba</option>
+        <option value="suriname">suriname</option>
+        <option value="amerika">amerika </option>
+       </select> <br>
+
+       <label for="datum van vertrek">datum van vertrek:</label> <br>
+<input type="date" name="datum van vertrek" min="2022-10-05" required> <br>
+<label for="datum van vetrek">datum van aankomst:</label> <br>
+<input type="date" name="datum van aankomst" min="2022-10-06" required> <br>
+<Label for="Aantal reisgenoten">Aantal reisgenoten: </Label> <br>
+<select name="Aantal reisgenoten" required>Aantal reisgenoten
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+</select>
+<br>
+<br>
+<button>boek nu!</button>
+<p>account aanmaken? <br> doe dat hier</p>
+<label for="E-mail">E-mail:</label> 
+<input type="email" name="E-mail"  placeholder="voorbeeld@hotmail.com"> <br>
+<label for="wachtwoord">wachtwoord:</label> 
+<input type="password" name="wachtwoord"><br>
+<label for="herhaal wachtwoord"> herhaal wachtwoord:</label>
+<input type="password" name="wachtwoord">
+    </form> 
+</body>
+</html>
