@@ -1,27 +1,71 @@
+html{
+
+    background-color: black;
+    font-family: arial;
+}
+body,html,h1{
+    padding:0;
+    margin: 0;
+}
+
 h1 {
+    text-align: center;
     color: blue;
     font-size: 24px;
     text-decoration-thickness: auto;
     font-style: italic;  
 }
-h2 { color: #0000ff;
+h2 { 
+    text-align: center;
+    color: #0000ff;
     font-size: 20px;
     text-decoration-thickness: auto;
 }
 h3{
+    text-align: center;
     color: teal;
     font-size: 16px;
     text-decoration-thickness: auto;
 }
 p{
-    color: #4D4D4D;    
+    text-align: center;
+    color: #8d8b8b;    
 }
 a{
+    text-align: center;
     color: #8A2BE2;
 }
 #first{ overflow: hidden;
     font-style: italic;}
 
-header { display: block;
+header { 
+    background-image: url(https://static.wixstatic.com/media/fa4526_51e1c17d81ce4207ac1bc8c51b636a09~mv2.png/v1/fill/w_400,h_162,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Horizontal%20logo%20with%20navy%20BG%403x.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    width: 100%; 
+    height: 300px;
+     background-color: rgb(38, 1, 50);
+}
+article{
+    margin-bottom: 10px;
+    border: solid rgb(255, 255, 255);
+  border-radius: 8px;
+  padding: 5px;
+  border-width:  2px 2px 2px 10px;
+  
+}
+
+
+.resizeimg{
+
     width: 100%;
-     background-color: grey;}
+}
+ .text{
+    color: aliceblue;}
+ .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
