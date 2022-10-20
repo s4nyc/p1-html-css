@@ -5,9 +5,16 @@
 }
 html {
   font-size: 62.5%;
+  
 }
 body {
   font-family: "Goldman", cursive;
+  background-image: url("./img/hacker.png");
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position-x: center;
+  background-position-y: 100px;
+  background-color: black;
 }
 
 nav {
